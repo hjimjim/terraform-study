@@ -8,7 +8,7 @@ resource "aws_route_table" "dev_public" {
   }
 
   tags {
-    Name = "dev-public"
+    Name = "user25_dev-public"
   }
 }
 
@@ -32,7 +32,7 @@ resource "aws_route_table" "dev_private_1a" {
   }
 
   tags {
-    Name = "dev-private-1a"
+    Name = "user25_dev-private-1a"
   }
 }
 
@@ -51,7 +51,7 @@ resource "aws_route_table" "dev_private_1c" {
   }
 
   tags {
-    Name = "dev-private-1c"
+    Name = "user25_dev-private-1c"
   }
 }
 

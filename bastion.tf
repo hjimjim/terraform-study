@@ -19,7 +19,7 @@ resource "aws_security_group" "bastion" {
   }
 
   tags {
-    Name = "bastion"
+    Name = "user25_bastion"
   }
 }
 

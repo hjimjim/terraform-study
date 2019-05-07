@@ -16,6 +16,6 @@ resource "aws_default_security_group" "dev_default" {
   }
 
   tags {
-    Name = "dev-default"
+    Name = "user25_dev-default"
   }
 }

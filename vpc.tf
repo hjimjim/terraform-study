@@ -5,6 +5,6 @@ resource "aws_vpc" "dev" {
   instance_tenancy     = "default"
 
   tags {
-    Name = "dev"
+    Name = "user25_dev"
   }
 }

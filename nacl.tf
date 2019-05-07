@@ -27,6 +27,6 @@ resource "aws_default_network_acl" "dev_default" {
   ]
 
   tags {
-    Name = "dev-default"
+    Name = "user25_dev-default"
   }
 }
