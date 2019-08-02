@@ -4,5 +4,5 @@ variable "amazon_linux" {
 }
 
 variable "dev_keyname" {
-  default = "user25"
+  default = "user21"
 }
